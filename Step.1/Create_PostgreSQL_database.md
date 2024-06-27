@@ -5,14 +5,14 @@ Click `+ Create` <br>
 <br>
 
 ## Create a new Azure Database for PostgreSQL Flexible server
-1. Type `postgres flexible` on the search bar, and select `create`
+1. Type `postgres flexible` on the search bar, and select `create` inside **Azure Database for PostgreSQL Flexible server** box.
    ![choose "Postgres Flexible"](choose_postgres_flexible.png)
    
 2. Enter the following values:<br>
 
    ***Project details***<br>
    * **Subscription:**  Select your Azure subscription.
-   * **Resource group:**  Enter a new resource group name, ex. `rg-flask-demo`.
+   * **Resource group:**  Select your resource group, ex. `rg-flask-demo`.
 
    ***Server details***<br>
    * **Server name:**  Enter a new server, ex. `db-flask-demo`.
@@ -41,6 +41,6 @@ Click `+ Create` <br>
    ![DB creation complete](db_create_complete.png)
 
 
-[< Previous step ](../Step.0/Prepare_Azure_subscription_and_resource_group.md) &emsp; - &emsp; **[Home](../README.md)** &emsp; - &emsp; [Next step >](../Step.2/Create_App_Service.md)
+[< Previous step ](../Step.0/Prepare_Azure_subscription_and_resource_group.md) &emsp; - &emsp; **[Home](../README.md)** &emsp; - &emsp; [Next step >](../Step.2/Create_Web_App.md)
 
 
