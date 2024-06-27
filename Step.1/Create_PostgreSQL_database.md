@@ -1,16 +1,6 @@
-## If you don't have an Azure account yet
-To sign up for Azure for Students, you need to
-* Have a Microsoft Outlook or Hotmail email address and an academic email account.
-* Visit https://azure.microsoft.com/en-us/free/students/ and click on **Activate Now**.
-* Log in with your Microsoft account and verify your student status with your academic email account.
-* Enjoy $100 credit for 12 months and access to more than 25 free services.
-
-<br>
-
-## Logon to Azure Portal website
-Open https://portal.azure.com <br>
-Login with your Azure account <br>
-![Azure Portal Website](Azure_Portal.png)
+## In the resource group page
+click `+ Create` <br>
+![+ Create](click_create.png)
 <br>
 <br>
 
