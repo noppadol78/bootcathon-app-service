@@ -41,6 +41,6 @@ Click `+ Create` <br>
    ![DB creation complete](db_create_complete.png)
 
 
-[< Previous step ](../Step.0/Prepare_Azure_subscription_and_resource_group.md) &emsp; - &emsp; **[Home](../README.md)** &emsp; - &emsp; [Next step >](../Step.2/Create_App_Service.md)
 
+[< Previous step ](../Step.1/Create_PostgreSQL_database.md) &emsp; - &emsp; **[Home](../README.md)** &emsp; - &emsp; [Next step >](../Step.3/Deploy_code_from_GitHub.md)
 

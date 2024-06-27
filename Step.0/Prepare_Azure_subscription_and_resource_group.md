@@ -15,16 +15,16 @@ To sign up for Azure for Students, you need to
 <br>
 
 ## Create a new resource group
-1. Type "resource groups" on the top search bar, and select `Resource groups`
+1. Type `resource groups` on the top search bar, and select `Resource groups`
    ![select "Resource groups"](select_resource_groups.png)
    
 2. Select `Create`.<br>
    ![select "Create"](select_create_resource_groups.png)
   
 4. Enter the following values:
-   * Subscription:  Select your Azure subscription.
-   * Resource group:  Enter a new resource group name, ex. `rg-flask-demo`.
-   * Region:  Select an Azure location, such as `Southeast Asia`.<br>
+   * **Subscription:**  Select your Azure subscription.
+   * **Resource group:**  Enter a new resource group name, ex. `rg-flask-demo`.
+   * **Region:**  Select an Azure location, such as `Southeast Asia`.<br>
    ![Enter values](create_a_resource_group.png)
 
 5. Select `Review + Create`
@@ -37,5 +37,5 @@ The new resource group will be shown in the list.<br>
 
 ![Resource groups](list_resource_groups.png)
 
-**[Home](../README.md)** - [Next step >](../Step.1/Create_PostgreSQL_database.md)
+**[Home](../README.md)** &emsp; - &emsp; [Next step >](../Step.1/Create_PostgreSQL_database.md)
 
