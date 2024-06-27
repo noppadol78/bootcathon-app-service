@@ -32,8 +32,9 @@ Login with your Azure account <br>
 6. Click `Create`. It takes a few seconds to create a resource group.<br>
    ![Click "Create"](create_a_resource_group2.png)
 <br>
-<br>
+
 The new resource group will be shown in the list.<br>
+
 ![Resource groups](list_resource_groups.png)
 
 **[Home](../README.md)** - [Next step >](../Step.1/Create_PostgreSQL_database.md)
