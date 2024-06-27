@@ -8,13 +8,13 @@ To sign up for Azure for Students, you need to
 <br>
 
 ## Logon to Azure Portal website
-Open https://portal.azure.com
-Login with your Azure account
+Open https://portal.azure.com <br>
+Login with your Azure account <br>
 ![Azure Portal Website](Azure_Portal.png)
-
+<br>
 <br>
 
-## Create a newe resource group
+## Create a new resource group
 1. Type "resource groups" on the top search bar, and select `Resource groups`
    ![select "Resource groups"](select_resource_groups.png)
    
@@ -31,3 +31,10 @@ Login with your Azure account
 
 6. Click `Create`. It takes a few seconds to create a resource group.<br>
    ![Click "Create"](create_a_resource_group2.png)
+<br>
+<br>
+The new resource group will be shown in the list.<br>
+![Resource groups](list_resource_groups.png)
+
+**[Home](../README.md)** - [Next step >](../Step.1/Create_PostgreSQL_database.md)
+
