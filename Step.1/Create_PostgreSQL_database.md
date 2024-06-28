@@ -15,7 +15,7 @@ Click `+ Create` <br>
    * **Resource group:**  Select your resource group, ex. `rg-flask-demo`.
 
    ***Server details***<br>
-   * **Server name:**  Enter a new server, ex. `db-flask-demo`.
+   * **Server name:**  Enter a new server. (Must not be the same as an existing name)
    * **Region:**  Select an Azure location, such as `Southeast Asia`.
    * **Workload type:**  Select `Development`.
 
@@ -26,6 +26,8 @@ Click `+ Create` <br>
    * **Confirm password:**  Enter password.
 
    ![Enter values](create_db1.png)
+
+   ( Take note for the values of **Server name** , **Admin username** , **Password**.  We will use these values in Step 3.  )
 
 3. Select `Review + Create`<br>
 

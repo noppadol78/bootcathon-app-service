@@ -19,6 +19,11 @@
 
 4. Click `Apply`.
 
+5. Click `Apply` on **App Setting** page
+
+![Apply Variable](apply_var.png)
+
+
 <br>
 
 ## In the Deployment Center page
@@ -44,13 +49,28 @@ Enter the following values:<br>
 6. In the top menu, select `Save`.<br>
    App Service commits a workflow file into the chosen GitHub repository, in the `.github/workflows` directory.
 
-## In the Deployment Center page
-1. Select `Logs`. A deployment run is already started.
+7. Select `Logs`. A deployment run is already started.
 
-2. In the log item for the deployment run, select `Build/Deploy Logs`. 
+8. In the log item for the deployment run, select `Build/Deploy Logs`. 
    ![Deploy Log](deploy_log.png)
 
-3. You're taken to your GitHub repository and see that the GitHub action is running. The workflow file defines two separate stages, build and deploy. Wait for the GitHub run to show a status of **Complete**. It takes about 5 minutes.
+9. You're taken to your GitHub repository and see that the GitHub action is running. The workflow file defines two separate stages, build and deploy. Wait for the GitHub run to show a status of **Complete**. It takes about 5 minutes.<br>
+If the GitHub Action workflow job failed, try re-run the jobs again.
+
+   ![GitHub Actions](github_actions.png)
+
+## Generate database schema
+The easiest way to run Flask database migrations is in an SSH session with the App Service container.
+
+1. In the App Service page, select `Development Tools` > `SSH`.
+
+2. Click `Go`
+
+   ![Open SSH](open_ssh.png)
+
+3.  In the SSH terminal, run `flask db upgrade`. <br>
+    If it succeeds, App Service is connecting successfully to the database. <br>
+    Only changes to files in /home can persist beyond app restarts. Changes outside of /home aren't persisted.
 
 4. Click `Create`.<br> 
    ![Click "Create"](create_web_app2.png)

@@ -15,7 +15,7 @@ Click `+ Create` <br>
    * **Resource group:**  Select your resource group, ex. `rg-flask-demo`.
 
    ***Instance details***<br>
-   * **Name:**  Enter a new web app name. (Must be a unique name)
+   * **Name:**  Enter a new web app name. (Must not be the same as an existing name)
    * **Publish:**  Select `Code`.
    * **Runtime stack:**  Select `Python 3.12`.
    * **Region:**  Select an Azure location, such as `Southeast Asia`.
